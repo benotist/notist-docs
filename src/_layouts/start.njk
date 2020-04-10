@@ -1,0 +1,120 @@
+---
+title: Notist Documentation
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="/assets/plugins/elegant_font/css/style.css">    
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/assets/css/styles.css">
+
+</head> 
+
+<body class="landing-page">   
+	
+	<!-- GITHUB BUTTON JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+     
+    <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div class="page-wrapper">
+        
+        <!-- ******Header****** -->
+        <header class="header text-center">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <img src="/assets/images/notistwh.svg" alt="Notist" height="50">
+                    </h1>
+                </div><!--//branding-->
+                <div class="tagline">
+                    <p>Notist is a place to build your public speaking portfolio.</p>
+                    <p>This is documentation and support to help you do that successfully.</p>
+                </div><!--//tagline-->
+
+            </div><!--//container-->
+        </header><!--//header-->
+        
+        <section class="cards-section text-center">
+            <div class="container">
+                <h2 class="title">Explore the docs</h2>
+                <div class="intro">
+                    <p>If you have a question or problem, try the different categories below.</p>
+                </div><!--//intro-->
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-green col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon icon_currency_alt"></i>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">Account &amp; Subscriptions</h3>
+                            <p class="intro">Payment, your account, and subscriptions.</p>
+                            <a class="link" href="/subscriptions"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item item-pink item-2 col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon_easel_alt"></span>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">Using Notist</h3>
+                            <p class="intro">Uploaing presentations and creating events.</p>
+                            <a class="link" href="/guide"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item item-blue col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon_mail"></span>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">Get in touch</h3>
+                            <p class="intro">Need further help? Get in touch.</p>
+                            <a class="link" href="/contact"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//cards-->
+                
+            </div><!--//container-->
+        </section><!--//cards-section-->
+    </div><!--//page-wrapper-->
+    
+    <footer class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+    
+     {{ content | safe }}
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="/assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="/assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                                
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    
+</body>
+</html> 
+
