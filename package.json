@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Documentation for noti.st",
   "main": "_site/index.html",
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
   "devDependencies": {},
   "scripts": {
     "build": "eleventy",
