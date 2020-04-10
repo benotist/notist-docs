@@ -1,0 +1,22 @@
+{
+  "name": "notist-docs",
+  "version": "1.0.0",
+  "description": "Documentation for noti.st",
+  "main": "_site/index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://drewm@github.com/benotist/notist-docs.git"
+  },
+  "author": "@drewm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benotist/notist-docs/issues"
+  },
+  "homepage": "https://github.com/benotist/notist-docs#readme"
+}
