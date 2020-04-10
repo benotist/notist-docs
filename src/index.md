@@ -1,6 +1,5 @@
 ---
 layout: start
-title: Welcome
+title: Notist help & support
 ---
 
-Hello3
