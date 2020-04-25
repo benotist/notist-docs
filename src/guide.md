@@ -68,6 +68,59 @@ title: Using Notist
                     <p>
                     You can now view and edit the deck, and make any changes to individual slides.
                     </p>
+                    <h3 class="block-title" id="exporting-slides">Exporting your slides as PDFs</h3>
+                    <p>
+                    Every presentation tool is different, but here are some instructions for exporting
+                    PDFs from common tools.
+                    </p>
+                    <p>
+                    If you're familiar with a tool that's not listed and have a successful set of
+                    steps for producing the two PDFs, we'd love to share them here.
+                    <a href="mailto:support@noti.st">Drop us a line</a> and we'll be sure to add
+                    them.
+                    </p>
+                    <h4>Apple Keynote</h4>
+                    <p>Slides PDF:</p>
+                    <ol>
+                    <li>Go to File &gt; Export To &gt; PDF</li>
+                    <li>Under "Image Quality", select "Best"</li>
+                    <li>Click Next and save the file</li>
+                    </ol>
+                    <p>Presenter notes PDF:</p>
+                    <ol>
+                    <li>Go to File &gt; Export To &gt; PDF</li>
+                    <li>Select the "Include presenter notes" option</li>
+                    <li>Click Next and save the file with a new name</li>
+                    </ol>
+                    <h4>Microsoft PowerPoint for macOS</h4>
+                    <p>Slides PDF:</p>
+                    <ol>
+                    <li>Go to File &gt; Export</li>
+                    <li>Select the file format as PDF</li>
+                    <li>Save the file</li>
+                    </ol>
+                    <p>Presenter notes PDF:</p>
+                    <ol>
+                    <li>Go to File &gt; Print</li>
+                    <li>Under Layout, select "Notes"</li>
+                    <li>In the bottom left, save as PDF</li>
+                    </ol>
+                    <h4>OpenOffice / LibreOffice</h4>
+                    <p>Slides PDF:</p>
+                    <ol>
+                    <li>Go to File &gt; Export as PDF</li>
+                    <li>Make sure that "export notes pages" is not selected</li>
+                    <li>Under "Reduce image resolution", choose the highest option</li>
+                    <li>Export</li>
+                    </ol>
+                    <div>Presenter notes PDF:</div>
+                    <ol>
+                    <li>Go to File &gt; Export as PDF</li>
+                    <li>
+                        This time select "Export notes pages" <em>and</em> "Export only notes pages".
+                    </li>
+                    <li>Export, and save the file under a new name.</li>
+                    </ol>
                     <h3 class="block-title" id="two-pdfs">Why two PDFs?</h3>
                     <p>
                     When you upload a slide deck to Notist, there's the option to add two different
@@ -243,6 +296,282 @@ title: Using Notist
                     event at this link and, as with the account creation process we will check to
                     see if it already exists before creating it.
                     </p>
+                    <h3 class="block-title" id="edit-event">Editing an event</h3>
+                    <p>
+                    If you added an event then you can also edit the event details. You will see
+                    an edit bar on the event page if this is the case.
+                    </p>
+                    <p>
+                    On the event edit page you can provide some additional details about the event
+                    such as a URL, event hashtag, and a description.
+                    </p>
+                    <h3 class="block-title" id="claim-event">Claiming your event</h3>
+                    <p>
+                    Events typically get into Notist when someone creates a presentation. If you
+                    are an event organiser you can also create your event in Notist, however you
+                    may discover that someone has already created your event and want to update the
+                    details.
+                    </p>
+                    <p>
+                    If you can provide us with a way of confirming that you own this event in some
+                    way then we will be happy to give you the right to edit it. You'll need a profile
+                    for us to assign it to, so make sure you're logged in and have a username. Then
+                    raise a support ticket with a link to the event in question and a way for us
+                    to confirm you, and we'll sort it out.
+                    </p>
+                </div>
+            </section>
+            <section id="pro" class="doc-section">
+                <h2 class="section-title">Pro features</h2>
+                <div class="section-block">
+                    <h3 class="block-title" id="custom-domain">Setting up a custom domain</h3>
+                    <p>
+                    Notist Pro subscribers have the option to configure a custom domain name to point
+                    to their profile and presentations on Notist. This enables you to share content
+                    on a domain you control, so if you decided to stop using Notist in the future
+                    all those incoming links would still point to your domain and not ours.
+                    </p>
+                    <p>
+                    When using a custom domain, links on the main Notist site point to your custom
+                    domain, and any existing links are redirected.
+                    </p>
+                    <h4>The process</h4>
+                    <p>
+                    Setting up a custom domain is a four-step process. Don't panic, they're easy
+                    steps.
+                    </p>
+                    <ol>
+                    <li>Add a DNS record to point your domain to us</li>
+                    <li>
+                        Request the custom domain from the Settings section of your account
+                    </li>
+                    <li>We then flip some switches to make it work</li>
+                    <li>When you're ready, you check a box to make it all active</li>
+                    </ol>
+                    <p>
+                    We'll attempt to explain those steps below, but the DNS bit is the only tricky
+                    part.
+                    </p>
+                    <h4>Add a DNS record&nbsp;</h4>
+                    <p>
+                    In order to point your domain to Notist, you need to create a CNAME record and
+                    point it to:
+                    </p>
+                    <p>
+                    <code>inbound.noti.st</code>
+                    </p>
+                    <p>
+                    A CNAME record is like an alias that points from one domain name to another.
+                    How precisely you create this will be down to your DNS provider. They should
+                    have documentation to help if it's not obvious.
+                    </p>
+                    <p>
+                    Once you have the CNAME configured and propagated, visiting your domain should
+                    show you the Notist homepage. This demonstrates that DNS is configured correctly,
+                    so the next step is to tell us to look out for it.
+                    </p>
+                    <h4>Requesting the custom domain</h4>
+                    <p>
+                    Log into your account and go to Settings from your profile menu. In the menu
+                    (left hand side for desktop users) there's a link for Custom Domain. If you don't
+                    see that you may not have a Pro account.
+                    </p>
+                    <p>
+                    On the Custom Domain page, enter the domain name you've chosen, e.g.
+                    </p>
+                    <p>
+                    <strong>presentations.example.com</strong>
+                    </p>
+                    <p>
+                    Submit the form to make the request. This will both save your preferences and
+                    raise a support ticket for us to get it configured for you. We'll use this support
+                    ticket to keep you updated.
+                    </p>
+                    <h4>Making it live</h4>
+                    <p>
+                    Once we've configured the domain, you'll be able to view your Notist profile
+                    using it. However, your pages will still be active on the noti.st domain. To
+                    start sending all the traffic through your custom domain, go back to Settings
+                    and Custom Domain and check the "Enable this custom domain" box.&nbsp;
+                    </p>
+                    <p>
+                    Once that's in place, all your presentations and profile links will point to
+                    the versions of your pages on your custom domain.
+                    </p>
+                </div>
+            </section>
+            <section id="general" class="doc-section">
+                <h2 class="section-title">General</h2>
+                <div class="section-block">
+                    <h3 class="block-title" id="a11y">Accessibility</h3>
+                    <p>
+                    We want Notist to be as easy to access as possible for all users, regardless
+                    of circumstance. That's a simple goal, but the implementation can be hard to
+                    get right.
+                    </p>
+                    <p>
+                    If some aspect of the site or service is hard for you to use, we want to fix
+                    it. It's probably the way it is because we either:
+                    </p>
+                    <ul>
+                    <li>Didn't anticipate your need as we should have (sorry)</li>
+                    <li>
+                        Tried to anticipate your need but got the approach wrong or used outdated
+                        methodology
+                    </li>
+                    <li>
+                        Did anticipate your need but a change or coding error has broken it and we
+                        didn't spot it
+                    </li>
+                    </ul>
+                    <p>
+                    In any of those cases we want to fix the mistake and improve our level of access.&nbsp;<a href="mailto:support@noti.st">Please let us know what's wrong</a>.
+                    If you have expertise in what should be done to fix it, we'd really value your
+                    advice, too.
+                    </p>
+                </div>
+            </section>
+            <section id="import-export" class="doc-section">
+                <h2 class="section-title">Importing and exporting</h2>
+                <div class="section-block">
+                    <h3 class="block-title" id="slideshare">Importing from SlideShare</h3>
+                    <p>
+                    If you have presentations already listed on SlideShare and want to bring them
+                    into Notist, so that you can display them alongside other information for that
+                    talk, this article explains how to do so.
+                    </p>
+                    <h4>Get your export from SlideShare</h4>
+                    <p>
+                    <strong>Before doing this be sure you will have time to process the import in the next 7 days as the links in the export expire after that time.</strong>
+                    </p>
+                    <p>
+                    Log into SlideShare and under Account Setting &gt; Export download the file of
+                    your data. Save this and come back to your Notist account.
+                    </p>
+                    <p>
+                    <img src="/assets/images/slideshare-export.png" alt="slideshare-export.png" width="748" height="248">
+                    </p>
+                    <h4>Importing the slide decks</h4>
+                    <p>
+                    In Notist go to Edit Presentations &gt; Imported and select SlideShare. Upload
+                    the file that you downloaded from SlideShare, and the data from the file will
+                    be imported.
+                    </p>
+                    <h4>Linking a deck to a presentation</h4>
+                    <p>
+                    SlideShare only shows slide decks, it doesn't have the information about the
+                    event or talk that we have on Notist. Once your decks are imported you will have
+                    a little work to do to link them up with an existing talk, or create a new talk
+                    to attach them to.
+                    </p>
+                    <p>
+                    Click on the name of any deck, on the next screen you will be able to choose
+                    what to do with it.
+                    </p>
+                    <p>
+                    If you choose to <strong>create a new presentation</strong>, you will end up
+                    in the usual process to create a new talk, with potentially a new event.
+                    </p>
+                    <p>
+                    If you have presentations already created which do not have a slide deck listed,
+                    then select <strong>add this deck to an existing presentation</strong>. A list
+                    of talks with no slides will appear and you can choose the appropriate talk.
+                    </p>
+                    <p>
+                    <img src="/assets/images/add-this-deck.png" alt="add-this-deck.png" width="837" height="311">
+                    </p>
+                    <p>
+                    As we then already have the information for the talk we can go straight into
+                    processing the slides.
+                    </p>
+                    <p>
+                    If you don't want to list these slides, or they are a duplicate of some you already
+                    added before the import was available, then choose
+                    <strong>I don't need this. Throw it away</strong>, and we will get rid of it
+                    from your list.
+                    </p>
+                    <p>
+                    Any problems during the process, then raise a ticket in support and we'll help
+                    you out.
+                    </p>
+                    <h3 class="block-title" id="speakerdeck">Importing from Speaker Deck</h3>
+                    <p>
+                    If you have presentations already listed on Speaker Deck and want to bring them
+                    into Notist, so that you can display them alongside other information for that
+                    talk, this article explains how to do so.
+                    </p>
+                    <h2>Importing the slide decks</h2>
+                    <p>
+                    You need your Speaker Deck username to get started. Then head to your account
+                    on Notist, and go to Edit Presentations. Click the Imported navigation item,
+                    and select to import from Speaker Deck.
+                    </p>
+                    <p>
+                    <img src="/assets/images/import-options.png" alt="import-options.png" width="709" height="116">
+                    </p>
+                    <p>
+                    Pop your Speaker Deck username into the field, and your import will be queued.&nbsp;
+                    </p>
+                    <p>
+                    The process shouldn't take too long, however we want to be respectful of third
+                    party servers and so at busy times it may take a little while. Once the process
+                    is complete you will find a list of the presentations that we found, under the
+                    Imported navigation item.
+                    </p>
+                    <p>
+                    <em><strong>If the process takes hours, then please raise a support ticket and we'll investigate what is happening for you!</strong></em>
+                    </p>
+                    <h2>Linking a deck to a presentation</h2>
+                    <p>
+                    Speaker Deck only shows slide decks, it doesn't have the information about the
+                    event or talk that we have on Notist. Once your decks are imported you will have
+                    a little work to do to link them up with an existing talk, or create a new talk
+                    to attach them to.
+                    </p>
+                    <p>
+                    <img src="/assets/images/import-list.png" alt="import-list.png" width="843" height="412">
+                    </p>
+                    <p>
+                    Click on the name of any deck, on the next screen you will be able to choose
+                    what to do with it.
+                    </p>
+                    <p>
+                    If you choose to <strong>create a new presentation</strong>, you will end up
+                    in the usual process to create a new talk, with potentially a new event.
+                    </p>
+                    <p>
+                    If you have presentations already created which do not have a slide deck listed,
+                    then select <strong>add this deck to an existing presentation</strong>. A list
+                    of talks with no slides will appear and you can choose the appropriate talk.
+                    As we then already have the information for the talk we can go straight into
+                    processing the slides.
+                    </p>
+                    <p>
+                    If you don't want to list these slides, or they are a duplicate of some you already
+                    added before the import was available, then choose
+                    <strong>I don't need this. Throw it away</strong>, and we will get rid of it
+                    from your list.
+                    </p>
+                    <p>
+                    Any problems during the process, then raise a ticket in support and we'll help
+                    you out.
+                    </p>
+                    <h3 class="block-title" id="export-api">Exporting data from your account</h3>
+                    <p>We are very keen that your data is not locked up inside our platform. It belongs to you and you should be able to keep a backup of it, or take it somewhere else in future in an easily usable manner. So we will be offering full export of data held in Notist.
+                    <p>
+                    During the beta data export is not yet available, essentially because some features are in flux that would require changes to any export scripts. We also want to work with beta testers to make sure the exports are useful. We'll add this in the coming weeks.
+                    <p>
+                    You can already access and use a lot of the data via JSON, from publicly accessible pages. For example, you can add .json to the end of any profile page URL.
+                    <p>
+                    <code>https://noti.st/username.json</code>
+                    <p>
+                    For a presentation page, remove the slug and add .json to the presentation ID:
+                    <p>
+                    <code>https://noti.st/username/aAbAcC.json</code>
+                    <p>
+                    And similarly for an event:
+                    <p>
+                    <code>https://noti.st/events/aAbAcC.json</code>
                 </div>
             </section>
         </div>
@@ -254,6 +583,7 @@ title: Using Notist
                     <nav class="doc-sub-menu nav flex-column">
                         <a class="nav-link scrollto" href="#add-presentation">Adding a new presentation</a>
                         <a class="nav-link scrollto" href="#add-slidedeck">Adding a slide deck</a>
+                        <a class="nav-link scrollto" href="#exporting-slides">Exporting your slides as PDFs</a>
                         <a class="nav-link scrollto" href="#two-pdfs">Why two PDFs?</a>
                         <a class="nav-link scrollto" href="#image-quality">Getting the best image quality</a>
                         <a class="nav-link scrollto" href="#slide-download">Making slides available for download</a>
@@ -263,10 +593,23 @@ title: Using Notist
                     <a class="nav-link scrollto" href="#events">Events</a>
                     <nav class="doc-sub-menu nav flex-column">
                         <a class="nav-link scrollto" href="#add-event">Adding a new event</a>
+                        <a class="nav-link scrollto" href="#edit-event">Editing an event</a>
+                        <a class="nav-link scrollto" href="#claim-event">Claiming your event</a>
                     </nav>
                     <a class="nav-link scrollto" href="#pro">Pro accounts</a>
+                    <nav class="doc-sub-menu nav flex-column">
+                        <a class="nav-link scrollto" href="#custom-domain">Setting up a custom domain</a>
+                    </nav>
                     <a class="nav-link scrollto" href="#general">General</a>
-                    <a class="nav-link scrollto" href="#import-export">Importing and exporting</a>
+                    <nav class="doc-sub-menu nav flex-column">
+                        <a class="nav-link scrollto" href="#a11y">Accessibility</a>
+                    </nav>
+                    <a class="nav-link scrollto" href="#import-export">Importing</a>
+                    <nav class="doc-sub-menu nav flex-column">
+                        <a class="nav-link scrollto" href="#slideshare">Importing from SlideShare</a>
+                        <a class="nav-link scrollto" href="#speakerdeck">Importing from Speaker Deck</a>
+                        <a class="nav-link scrollto" href="#export-api">Exporting data from your account</a>
+                    </nav>
                 </nav>
         </div>
     </div>
