@@ -24,6 +24,12 @@ title: Account and subscriptions
                     </p>
                 </div>
             </section>
+            <section id="refunds-section" class="doc-section">
+                <h2 class="section-title">Refunds</h2>
+                <div class="section-block">
+                    <p>We want you to be happy if you choose to pay for Notist Pro. If you're not happy for any reason, we will refund your most recent payment provided you notify us within 15 days from the payment date. After 15 days, please contact us and let us know and we'll assess on a case-by-case basis.</p>
+                </div>
+            </section>
             <section id="export-section" class="doc-section">
                 <h2 class="section-title">Data Export from Your Account</h2>
                 <div class="section-block">
@@ -51,6 +57,7 @@ And similarly for an event:
                 <nav id="doc-menu" class="nav doc-menu flex-column sticky">
                     <a class="nav-link scrollto" href="#pro-section">Pro Subscription Payments</a>
                     <a class="nav-link scrollto" href="#trial-section">Trial Subscription</a>
+                    <a class="nav-link scrollto" href="#refunds-section">Refunds</a>
                     <a class="nav-link scrollto" href="#export-section">Exporting</a>
                 </nav>
         </div>
