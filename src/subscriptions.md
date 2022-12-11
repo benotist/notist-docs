@@ -27,7 +27,7 @@ title: Account and subscriptions
             <section id="refunds-section" class="doc-section">
                 <h2 class="section-title">Refunds</h2>
                 <div class="section-block">
-                    <p>We want you to be happy if you choose to pay for Notist Pro. If you're not happy for any reason, we will refund your most recent payment provided you notify us within 15 days from the payment date. After 15 days, please contact us and let us know and we'll assess on a case-by-case basis.</p>
+                    <p>We want you to be happy if you choose to pay for Notist Pro. If you're not happy for any reason, we will refund your most recent payment provided you <a href="mailto:support@noti.st">notify us</a> within 15 days from the payment date. After 15 days, please contact us and let us know and we'll assess on a case-by-case basis.</p>
                 </div>
             </section>
             <section id="export-section" class="doc-section">
